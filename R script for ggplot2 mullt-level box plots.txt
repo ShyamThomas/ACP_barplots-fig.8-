@@ -1,5 +1,5 @@
 #Script for multi-level barplots in ggplot2 used in Fig. 8 of ACP manuscript
-
+read.csv("Comparison_Est_Imp.csv", head=T)
 head(comp_estimp) # a quick look at the data structure
   Count Proportion Percentile       Model
 1   901      10.60         90   ENV_EST90
